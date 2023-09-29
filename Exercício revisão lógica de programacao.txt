@@ -1,0 +1,459 @@
+Exercício revisão lógica de programação - JavaScript
+1. O que você entende de lógica de programação?
+Algoritmo
+
+Resposta: é um algoritmo para executar uma função, é também baseado em lógica de computacional, ela determina um objetivo.
+
+2. O que é algoritmo? E qual a diferença entre algoritmo, pseudocódigo e fluxograma?
+
+Resposta: Algoritmo é uma sequência finita de ações executáveis que visam obter uma solução para um determinado tipo de problema, eles são eficientes e corretos (usa análise passo a passo do processo).
+pseudocódigo ele usa linguagem natural ou notação matemática compacta para escrever algoritmos.
+fluxograma fornece uma representação gráfica de um algoritmo usando símbolos.
+
+
+3. Escrever o algoritmo em pseudocódigo de como Fazer bolo.
+
+
+4. Escrever o algoritmo em pseudocódigo de como Fritar ovos.
+
+5. Escrever o fluxograma de como Fazer bolo.
+
+6. Escrever o fluxograma de como Fritar ovos.
+
+Variáveis e Tipos de dados
+7. Qual é a definição de Variável e Constants?
+
+Resposta: Variável é um valor que pode mudar ou variar ao longo do tempo ou em diferentes situações. Em matemática e programação, as variáveis são representadas por letras ou símbolos e podem assumir diferentes valores.
+
+Constante é um valor que não muda ou varia. Em matemática e programação, as constantes são representadas por letras ou símbolos e têm um valor fixo.
+
+Em resumo, a principal diferença entre variável e constante é que a variável pode mudar de valor, enquanto a constante tem um valor fixo.
+
+8. Sobre nomes de variáveis, marque as alternativas corretas:
+( x) Podem ter letras do alfabeto(minúsculas ou maiúsculas), dígitos (0 … 9) e o
+caractere underline ( _ )
+(x ) Podem começar com letra maiúscula
+( ) Pode usar caracteres acentuados, ex: nomeUsuário
+( ) O primeiro caractere pode ser um dígito, ex: 9nome;
+(x ) O nome deve ser identificador do que armazena, ex: codigoCliente no lugar de x
+( x) Maiúsculas e minúsculas são diferentes (case-sensitive), ex: nomeCliente <>
+nomecliente
+( ) Deve ser todo escrito em maiúsculas, ex: NOMECLIENTE
+( x) Não usar hífen para iniciar o nome de variáveis, ex: -nomecliente
+( ) Não pode ser uma palavra reservada, ex: for, if, int;
+9. Escreva 5 exemplos válidos de nomes de variáveis.
+
+Resposta: minhaCasa, minhaBola, meuSorvete, meuNotebook, minhaProva;
+
+10. O que são tipos de dados?
+
+Resposta: Tipos de dados são categorias que definem o formato e a natureza dos valores que podem ser armazenados e manipulados em um programa de computador.
+
+11. Quais são os tipos de dados primitivos? Dê exemplos de cada tipo primitivo?
+
+Respostas: String Esse tipo de dados representa dados textuais que consistem em uma sequência de caracteres cercados por cotações.
+
+Número (int) Representa dados decimais/não decimais, particularmente inteiro ou flutuador.
+
+booleano Representação de valores lógicos verdadeiros ou falsos.
+
+Símbolo O símbolo é usado para manter valores exclusivos.
+
+indefinido Uma variável sem qualquer valor ou uma variável não inicializada.
+
+NULL A ausência de qualquer valor é considerada nula. Tipo de dados não primitivo inclui:
+
+Objeto É usado para armazenar a coleta de dados que consistem em pares de valor-chave. 
+
+
+12. Escreva a declaração de uma variável do tipo booleano.
+
+Resposta: True, false.
+
+13. Escreva a declaração de uma variável do tipo caracterer para receber o valor "meu
+nome é maria".
+
+Resposta: char nome = "meu nome é maria";
+
+14. Escreva a declaração de uma variável do tipo caracterer para receber o valor "carro21!"
+
+char meuCarro = "carro 21";
+
+15. É correto escrever a declaração de uma variável do tipo booleano para receber o valor
+35? Porque?
+
+Não, pois o tipo booleano só pode receber os valores true ou false.
+
+16. É correto escrever a declaração de uma variável do tipo numérico para receber o valor
+"papagaio"? Porque?
+
+Não, pois o tipo numérico é utilizado para armazenar valores numéricos, como inteiros ou números de ponto flutuante. Papagaio é uma palavra e não pode ser interpretada como um valor numérico.
+
+17. É correto escrever a declaração de uma variável do tipo numérico para receber o valor
+12? Porque?
+
+Sim, é correto. O valor 12 é um número inteiro e pode ser atribuído a uma variável do tipo numérico, como por exemplo, int ou float.
+
+18. O que é um array? Escreva 5 exemplos.
+
+Um array é uma estrutura de dados que armazena um conjunto de elementos do mesmo tipo, acessíveis por meio de um índice.
+
+Exemplos:
+1. int[] numeros = {1, 2, 3, 4, 5};
+2. String[] nomes = {"Ana", "João", "Maria"};
+3. float[] valores = {1.5f, 2.7f, 3.2f};
+4. char[] vogais = {'a', 'e', 'i', 'o', 'u'};
+5. boolean[] flags = {true, false, true};
+
+19. O que é um objeto? Escreva 5 exemplos.
+Operadores e expressões
+
+Um objeto é uma instância de uma classe, que contém propriedades e métodos para representar um conceito específico.
+
+Exemplos de objetos:
+1. Pessoa (com propriedades como nome, idade e métodos como cumprimentar())
+2. Carro (com propriedades como marca, modelo e métodos como acelerar())
+3. Livro (com propriedades como título, autor e métodos como abrir())
+4. Cachorro (com propriedades como nome, raça e métodos como latir())
+5. Conta Bancária (com propriedades como saldo, número da conta e métodos como depositar())
+
+20. O que você entende de operadores e expressões?
+
+Operadores são símbolos que realizam operações em operandos, enquanto expressões são combinações de operandos e operadores que produzem um valor. Eles são usados para realizar cálculos e manipulações em programação.
+
+21. Quais são os Operadores aritméticos? Escreva 5 exemplos.
+
+Os operadores aritméticos são utilizados para realizar operações matemáticas. Aqui estão cinco exemplos:
+
+1. Soma (+): x + y
+2. Subtração (-): x - y
+3. Multiplicação (*): x * y
+4. Divisão (/): x / y
+5. Resto da divisão (%): x % y
+
+22. Quais são os Operadores de atribuição? Escreva 5 exemplos.
+
+Os operadores de atribuição são utilizados para atribuir valores a variáveis. Aqui estão cinco exemplos:
+
+1. Atribuição simples (=): x = 10
+2. Atribuição com adição (+=): x += 5 (equivalente a x = x + 5)
+3. Atribuição com subtração (-=): x -= 3 (equivalente a x = x - 3)
+4. Atribuição com multiplicação (*=): x *= 2 (equivalente a x = x * 2)
+5. Atribuição com divisão (/=): x /= 4 (equivalente a x = x / 4)
+
+23. Quais são os Operadores de comparação? Escreva 5 exemplos.
+
+Os operadores de comparação são utilizados para comparar valores. Aqui estão cinco exemplos:
+
+1. Igual (==): x == y
+2. Diferente (!=): x != y
+3. Maior que (>): x > y
+4. Menor que (<): x < y
+5. Maior ou igual a (>=): x >= y
+
+24. Quais são os Operadores lógicos? Escreva 5 exemplos.
+Estrutura de decisão
+
+Os operadores lógicos são utilizados para combinar expressões lógicas. Aqui estão cinco exemplos:
+
+1. E lógico (&&): expressão1 && expressão2
+2. OU lógico (||): expressão1 || expressão2
+3. NÃO lógico (!): !expressão
+4. OU exclusivo lógico (XOR): expressão1 ^ expressão2
+5. E lógico curto-circuito (&&): expressão1 && função()
+
+25. O que você entende de Estrutura de decisão?
+
+Estrutura de decisão é uma construção em programação que permite tomar decisões com base em condições. Ela permite que o programa execute diferentes blocos de código dependendo do resultado de uma expressão lógica. Exemplos comuns são o "if-else" e o "switch-case".
+
+26. O que if/else faz? Qual a estrutura do if/else? Escreva 5 exemplos.
+
+A estrutura if/else é uma estrutura de decisão que permite executar um bloco de código se uma condição for verdadeira e outro bloco de código se a condição for falsa.
+
+Estrutura do if/else:
+
+if (condição) {
+    // Bloco de código a ser executado se a condição for verdadeira
+} else {
+    // Bloco de código a ser executado se a condição for falsa
+}
+
+
+Exemplos:
+1. Verificar se um número é par ou ímpar:
+
+if (numero % 2 == 0) {
+    System.out.println("O número é par.");
+} else {
+    System.out.println("O número é ímpar.");
+}
+
+
+2. Verificar se um aluno passou ou não em uma prova:
+
+if (nota >= 7) {
+    System.out.println("Aluno aprovado!");
+} else {
+    System.out.println("Aluno reprovado.");
+}
+
+
+3. Verificar se uma pessoa é maior de idade:
+
+if (idade >= 18) {
+    System.out.println("Pessoa é maior de idade.");
+} else {
+    System.out.println("Pessoa é menor de idade.");
+}
+
+
+4. Verificar se um número é positivo, negativo ou zero:
+
+if (numero > 0) {
+    System.out.println("O número é positivo.");
+} else if (numero < 0) {
+    System.out.println("O número é negativo.");
+} else {
+    System.out.println("O número é zero.");
+}
+
+
+5. Verificar se um ano é bissexto ou não:
+
+if ((ano % 4 == 0 && ano % 100 != 0) || ano % 400 == 0) {
+    System.out.println("O ano é bissexto.");
+} else {
+    System.out.println("O ano não é bissexto.");
+}
+
+27. O que switch faz? Qual a estrutura do switch? Escreva 2 exemplos.
+Estrutura de repetição
+
+A estrutura switch é uma estrutura de controle de fluxo que permite avaliar diferentes valores de uma expressão e executar blocos de código correspondentes a cada valor.
+
+Estrutura do switch:
+
+switch (expressão) {
+    case valor1:
+        // Bloco de código a ser executado se expressão for igual a valor1
+        break;
+    case valor2:
+        // Bloco de código a ser executado se expressão for igual a valor2
+        break;
+    default:
+        // Bloco de código a ser executado se expressão não corresponder a nenhum valor
+        break;
+}
+
+
+Exemplo 1: Verificar o dia da semana com base em um número (0 para domingo, 1 para segunda, etc.):
+
+int dia = 3;
+String nomeDia;
+
+switch (dia) {
+    case 0:
+        nomeDia = "Domingo";
+        break;
+    case 1:
+        nomeDia = "Segunda-feira";
+        break;
+    case 2:
+        nomeDia = "Terça-feira";
+        break;
+    // outros casos
+    default:
+        nomeDia = "Dia inválido";
+        break;
+}
+
+System.out.println("O dia é: " + nomeDia);
+
+
+Exemplo 2: Executar ações com base em um tipo de animal:
+
+String animal = "gato";
+
+switch (animal) {
+    case "cachorro":
+        System.out.println("O animal é um cachorro.");
+        break;
+    case "gato":
+        System.out.println("O animal é um gato.");
+        break;
+    case "pássaro":
+        System.out.println("O animal é um pássaro.");
+        break;
+
+28. O que for faz? Qual a estrutura do for? Escreva 2 exemplos.
+
+A estrutura for é uma estrutura de repetição que permite executar um bloco de código várias vezes com base em uma condição.
+
+Estrutura do for:
+
+for (inicialização; condição; atualização) {
+    // Bloco de código a ser repetido
+}
+
+
+Exemplo 1: Imprimir os números de 1 a 5:
+
+for (int i = 1; i <= 5; i++) {
+    System.out.println(i);
+}
+
+
+Exemplo 2: Calcular a soma dos números de 1 a 10:
+
+int soma = 0;
+
+for (int i = 1; i <= 10; i++) {
+    soma += i;
+}
+
+System.out.println("A soma é: " + soma);
+
+29. O que for/in faz? Qual a estrutura do for/in? Escreva 2 exemplos.
+
+A estrutura for/in é utilizada para percorrer elementos de uma coleção, como arrays ou listas.
+
+Estrutura do for/in:
+
+for (tipo elemento : coleção) {
+    // Bloco de código a ser executado para cada elemento
+}
+
+
+Exemplo 1: Percorrer um array e imprimir seus elementos:
+
+int[] numeros = {1, 2, 3, 4, 5};
+
+for (int numero : numeros) {
+    System.out.println(numero);
+}
+
+
+Exemplo 2: Percorrer uma lista de nomes e exibir uma mensagem para cada nome:
+
+List<String> nomes = new ArrayList<>();
+nomes.add("João");
+nomes.add("Maria");
+nomes.add("Pedro");
+
+for (String nome : nomes) {
+    System.out.println("Olá, " + nome + "!");
+}
+
+30. O que for/of faz? Qual a estrutura do for/of? Escreva 2 exemplos.
+Funções
+
+Ela irá iterar desta maneira sobre os elementos de qualquer coleção que tiver uma propriedade [Symbol.
+
+31. O que são funções? Escreva 5 exemplos
+
+Funções são blocos de código que podem ser chamados e executados em diferentes partes de um programa, com o objetivo de realizar uma tarefa específica.
+
+Exemplo 1: Função para somar dois números:
+
+int somar(int a, int b) {
+    return a + b;
+}
+
+
+Exemplo 2: Função para verificar se um número é par:
+
+boolean ehPar(int numero) {
+    return numero % 2 == 0;
+}
+
+
+Exemplo 3: Função para exibir uma mensagem na tela:
+
+void exibirMensagem(String mensagem) {
+    System.out.println(mensagem);
+}
+
+
+Exemplo 4: Função para calcular o fatorial de um número:
+
+int calcularFatorial(int numero) {
+    if (numero == 0 || numero == 1) {
+        return 1;
+    } else {
+        return numero * calcularFatorial(numero - 1);
+    }
+}
+
+
+Exemplo 5: Função para verificar se uma string é palíndromo:
+
+boolean ehPalindromo(String palavra) {
+    String invertida = new StringBuilder(palavra).reverse().toString();
+    return palavra.equalsIgnoreCase(invertida);
+}
+
+32. O que são parâmetros de entrada de uma função? Criar 3 funções com parâmetros de
+entrada.
+
+Parâmetros de entrada de uma função são valores que podem ser passados para a função quando ela é chamada, fornecendo dados ou informações necessárias para a execução da função.
+
+Exemplo 1: Função para calcular a área de um retângulo com base no comprimento e largura:
+
+double calcularAreaRetangulo(double comprimento, double largura) {
+    return comprimento * largura;
+}
+
+
+Exemplo 2: Função para verificar se um número é positivo, negativo ou zero:
+
+void verificarNumero(int numero) {
+    if (numero > 0) {
+        System.out.println("O número é positivo.");
+    } else if (numero < 0) {
+        System.out.println("O número é negativo.");
+    } else {
+        System.out.println("O número é zero.");
+    }
+}
+
+
+Exemplo 3: Função para concatenar duas strings:
+
+String concatenarStrings(String str1, String str2) {
+    return str1 + str2;
+}
+
+33. Explicar a estrutura de função abaixo:
+Sintaxe e Semântica
+
+A estrutura básica de uma função consiste na sua declaração, que inclui o tipo de retorno, o nome da função e os parâmetros de entrada. A sintaxe e semântica podem variar dependendo da linguagem de programação utilizada.
+
+Exemplo:
+
+tipoDeRetorno nomeDaFuncao(tipoParametro1 parametro1, tipoParametro2 parametro2) {
+    // Corpo da função
+    // Código a ser executado
+    // Retorno do valor, se houver
+}
+
+
+- "tipoDeRetorno": representa o tipo de dado que a função retorna (pode ser void se não retornar nada).
+- "nomeDaFuncao": é o identificador único da função.
+- "tipoParametro" e "parametro": são os parâmetros de entrada da função, com seus respectivos tipos de dado.
+
+A semântica envolve a lógica e o propósito da função, ou seja, o que ela faz e como ela deve ser utilizada. A sintaxe define a estrutura correta para implementar uma função na linguagem de programação específica.
+
+34. O que você entende de sintaxe e semântica em lógica de programação?
+
+Em lógica de programação, a sintaxe refere-se à estrutura e às regras gramaticais da linguagem de programação utilizada. É a forma correta de escrever o código, incluindo a ordem dos elementos, uso de pontuação, parênteses, chaves, etc.
+
+A semântica está relacionada ao significado e à interpretação do código. Ela define como as instruções são executadas e como os dados são manipulados. Envolve a lógica e a coerência do código, garantindo que ele faça sentido e cumpra o objetivo desejado. Erros de semântica podem levar a resultados inesperados ou comportamentos indesejados no programa.
+
+35. Sobre sintaxe e semântica, marque as alternativas corretas:
+( x) Podemos utilizar nomes de variáveis e funções complexas.
+( x) Devemos evitar código duplicado.
+( x) Devemos evitar criar nomes repetidos de variáveis.
+( x) Podemos criar nomes de função todo em letra maiúscula.
+(  ) No exemplo var nome = 12, Pensando que o nome da variável deveria nos dizer o
+tipo de dado que ela tem, podemos criar uma variável nome para receber o valor
+numérico 12? Por que?
